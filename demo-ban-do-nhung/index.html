@@ -88,20 +88,22 @@
     }
     .content{
       color: white;
-      padding: 0 20px;
-      width: 300px;
+      padding: 0 10px;
+      
       overflow: hidden;
     }
     @media screen and (max-height: 450px) {
       .sidenav {
-        padding-top: 15px;
+        padding-top: 50px;
       }
       .sidenav a {
         font-size: 18px;
       }
     }</style></head><body><div id="mySidenav" class="sidenav"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><div class="content" id="placeContent"></div></div><div id="map"></div><script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBGVDv5fOFgfW4ixNZL_2krgkriGu6vvc&libraries=places&callback=initMap" async defer></script><script>function openNav() {
-      document.getElementById("mySidenav").style.width = "350px";
-      //calculateAndDisplayRoute(directionsService, directionsDisplay);
+      var navWidth = ($(document).width() * 30) / 100;
+      if(navWidth > 350) navWidth = 350;
+      $("#mySidenav").width(navWidth);
+      $("#mySidenav .content").width(navWidth - 20);
     }
 
     function closeNav() {
@@ -173,7 +175,7 @@
         dataType: 'json',
         method: 'GET',
         data: {
-          filter: '{"where" : {"id" : 4}}'
+          filter: '{"where" : {"id" : ' + getUrlParameter('tourId') + '}}'
         }
       }).done(loadTourSuccess);
     }
@@ -193,4 +195,18 @@
       directionsDisplay.setMap(map);
 
       loadMarkers(); // load sanh sách điểm của tour
-    }</script></body></html>
+    }
+    var getUrlParameter = function getUrlParameter(sParam) {
+      var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+          sURLVariables = sPageURL.split('&'),
+          sParameterName,
+          i;
+
+      for (i = 0; i < sURLVariables.length; i++) {
+          sParameterName = sURLVariables[i].split('=');
+
+          if (sParameterName[0] === sParam) {
+              return sParameterName[1] === undefined ? true : sParameterName[1];
+          }
+      }
+  };</script></body></html>
