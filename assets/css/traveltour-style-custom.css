@@ -104,12 +104,12 @@ body.traveltour-boxed.traveltour-background-pattern .traveltour-body-outer-wrapp
 .traveltour-footer-wrapper{ padding-bottom: 50px; } 
 .traveltour-copyright-text{ padding-top: 38px; } 
 .traveltour-copyright-text{ padding-bottom: 38px; } 
-.traveltour-body h1, .traveltour-body h2, .traveltour-body h3, .traveltour-body h4, .traveltour-body h5, .traveltour-body h6, .traveltour-body .traveltour-title-font,.traveltour-body .gdlr-core-title-font{ font-family: "Poppins", sans-serif; }.woocommerce-breadcrumb, .woocommerce span.onsale, .single-product.woocommerce div.product p.price .woocommerce-Price-amount, .single-product.woocommerce #review_form #respond label{ font-family: "Poppins", sans-serif; } 
-.traveltour-navigation .sf-menu > li > a, .traveltour-navigation .sf-vertical > li > a, .traveltour-navigation-font{ font-family: "Poppins", sans-serif; } 
-.traveltour-body, .traveltour-body .gdlr-core-content-font, .traveltour-body input, .traveltour-body textarea, .traveltour-body button, .traveltour-body select, .traveltour-body .traveltour-content-font, .gdlr-core-audio .mejs-container *{ font-family: "Poppins", sans-serif; } 
-.traveltour-body .gdlr-core-info-font, .traveltour-body .traveltour-info-font{ font-family: "Poppins", sans-serif; } 
-.traveltour-body .gdlr-core-blog-info-font, .traveltour-body .traveltour-blog-info-font{ font-family: "Poppins", sans-serif; } 
-.traveltour-body .gdlr-core-quote-font{ font-family: "Poppins", sans-serif; } 
+.traveltour-body h1, .traveltour-body h2, .traveltour-body h3, .traveltour-body h4, .traveltour-body h5, .traveltour-body h6, .traveltour-body .traveltour-title-font,.traveltour-body .gdlr-core-title-font{ font-family: "Roboto", sans-serif; }.woocommerce-breadcrumb, .woocommerce span.onsale, .single-product.woocommerce div.product p.price .woocommerce-Price-amount, .single-product.woocommerce #review_form #respond label{ font-family: "Roboto", sans-serif; } 
+.traveltour-navigation .sf-menu > li > a, .traveltour-navigation .sf-vertical > li > a, .traveltour-navigation-font{ font-family: "Roboto", sans-serif; } 
+.traveltour-body, .traveltour-body .gdlr-core-content-font, .traveltour-body input, .traveltour-body textarea, .traveltour-body button, .traveltour-body select, .traveltour-body .traveltour-content-font, .gdlr-core-audio .mejs-container *{ font-family: "Roboto", sans-serif; } 
+.traveltour-body .gdlr-core-info-font, .traveltour-body .traveltour-info-font{ font-family: "Roboto", sans-serif; } 
+.traveltour-body .gdlr-core-blog-info-font, .traveltour-body .traveltour-blog-info-font{ font-family: "Roboto", sans-serif; } 
+.traveltour-body .gdlr-core-quote-font{ font-family: "Roboto", sans-serif; } 
 .traveltour-body h1{ font-size: 52px; } 
 .traveltour-body h2, #poststuff .gdlr-core-page-builder-body h2{ font-size: 48px; } 
 .traveltour-body h3{ font-size: 41px; } 
