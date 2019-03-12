@@ -1799,3 +1799,104 @@ body.ilightbox-noscroll{ overflow: auto; }
 .gdlr-core-widget-box-shortcode .gdlr-core-widget-box-shortcode-icon{ font-size: 21px; color: #4d96e9; margin-right: 20px; float: left; }
 .gdlr-core-widget-box-shortcode .gdlr-core-widget-box-shortcode-content{ overflow: hidden; }
 .gdlr-core-widget-box-shortcode .gdlr-core-widget-box-shortcode-link{ position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+
+/* ADD CSS MỚI 8-3 NGÀY ĐẸP AH */
+/* ._3e112 {
+    font-weight: 700 !important;
+    position: relative;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    line-height: .9375rem !important;
+    margin: 0;
+    padding: 20px 0;
+    color: #777;
+	color: var(--color-faded-typography,#777);
+	font-size: 16px !important;
+	text-transform: uppercase;
+}
+._3e112 svg {
+    width: 12px;
+    margin-right: 8px;
+}
+.quartz._97ba0{
+	width: 200px;
+	height: 200px;
+}
+.p-pl{
+	padding-left: 30px;
+}
+._2f309.quartz{
+	color: var(--color-faded-typography,#a1a1a1);
+	font-family: sans-serif;
+	font-size: 13px;
+}
+.style-img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.context-list{
+	margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+	.font-z-h3{
+		font-size: 16px !important;
+	}
+}
+@media (max-width: 425px) {
+	.quartz._97ba0{
+		width: 100px;
+		height: 100px;
+	}
+	.font-size-div{
+		font-size: 13px !important;
+	}
+	.p-pl {
+		padding-left: 10px;
+	}
+	.font-z-h3{
+		margin-bottom: 0px !important;
+	}
+}
+@media (max-width: 375px) {
+	.quartz._97ba0{
+		width: 80px;
+		height: 80px;
+	}
+} */
+.style-box{
+	background-color: #f9f9f9; 
+	padding-bottom:0px;
+	border: 0;
+    padding-top: 20px;
+}
+.style-gdlr-core-item-mgb{
+	margin-bottom: 20px !important;
+}
+.show-768{
+	display: none;
+}
+@media (max-width: 768px) {
+	.hiden-768{
+		display: none;
+	}
+	.show-768{
+		display: block;
+	}
+	.p768-p-0{
+		padding: 0px;
+	}
+}
+.show-767{
+	display: none;
+}
+@media (max-width: 767px) {
+	.hiden-767{
+		display: none;
+	}
+	.show-767{
+		display: block;
+	}
+}
