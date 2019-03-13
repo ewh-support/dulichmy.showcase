@@ -498,3 +498,65 @@ button-border-hover-color
 .gdlr-core-page-builder-body [data-skin="White Text"] .gdlr-core-button.gdlr-core-button-gradient{ background: -webkit-linear-gradient(#212121, #262626); background: -o-linear-gradient(#212121, #262626);  background: -moz-linear-gradient(#212121, #262626); background: linear-gradient(#212121, #262626); } 
 
 .traveltour-item-mgb, .gdlr-core-item-mgb{ margin-bottom: 40px; }
+.attachment-preview-1 {
+	position: relative;
+	-webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.1), inset 0 0 0 1px rgba(0,0,0,.05);
+	box-shadow: inset 0 0 15px rgba(0,0,0,.1), inset 0 0 0 1px rgba(0,0,0,.05);
+	background: #fff;
+	cursor: pointer;
+}
+.attachment-preview-1:before {
+	content: "";
+	display: block;
+	padding-top: 74%;
+}
+.thumbnaill-1:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	/* -webkit-box-shadow: inset 0 0 0 1px rgba(0,0,0,.1);
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,.1); */
+	overflow: hidden;
+}
+.thumbnaill-1 {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 1;
+	transition: opacity .1s;
+}
+.centered-1 {
+	/* position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: translate(50%,50%);
+	-ms-transform: translate(50%,50%);
+    transform: translate(50%,50%);
+	z-index: 1;
+	overflow: initial !important; */
+	height: 100%;
+	z-index: 1;
+}
+.centered-1 img {
+	/* -webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%); */
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    margin: auto !important;
+    right: 0;
+	bottom: 0;
+	object-fit: cover;
+	max-height: 100%;
+}
